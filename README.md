@@ -16,7 +16,6 @@ This project is designed to simulate a production-ready outbound email workflow 
 - [Environment Variables](#environment-variables)
 - [API Reference](#api-reference)
 - [Development Workflow](#development-workflow)
-- [Demo & Screenshots](#demo--screenshots)
 - [Assumptions and Trade-offs](#assumptions-and-trade-offs)
 - [Troubleshooting](#troubleshooting)
 
@@ -132,7 +131,6 @@ reachinbox-email-scheduler/
 │   ├── package.json
 │   └── tsconfig.json
 ├── docker-compose.yml
-├── DEMO.md
 ├── REQUIREMENTS.md
 ├── package.json
 ├── scripts/
@@ -368,10 +366,6 @@ npm run docker:down
 npm run docker:reset
 ```
 
-## Demo & Screenshots
-
-A demo script and screen-by-screen workflow are included in [DEMO.md](DEMO.md).
-
 ## Assumptions and Trade-offs
 
 ### Assumptions
@@ -432,4 +426,4 @@ npm run es:reindex
 
 This README documents the default architecture and developer workflow for this repository. For assignment-specific requirements and checklist tracking, see [REQUIREMENTS.md](REQUIREMENTS.md).
 
-For the demo walkthrough, see [DEMO.md](DEMO.md).
+
